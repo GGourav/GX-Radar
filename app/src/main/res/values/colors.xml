@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="entity_resource">#2979FF</color>
+    <color name="entity_mob_normal">#00E676</color>
+    <color name="entity_mob_enchanted">#D500F9</color>
+    <color name="entity_mob_boss">#FF6D00</color>
+    <color name="entity_player_passive">#FFFFFF</color>
+    <color name="entity_player_faction">#FF6D00</color>
+    <color name="entity_player_hostile">#FF1744</color>
+    <color name="entity_unknown">#9E9E9E</color>
+
+    <color name="enchant_1">#00E676</color>
+    <color name="enchant_2">#1565C0</color>
+    <color name="enchant_3">#AA00FF</color>
+    <color name="enchant_4">#FFD600</color>
+
+    <color name="radar_background">#80000000</color>
+    <color name="radar_border">#FFFFFF</color>
+    <color name="panel_background">#E0000000</color>
+</resources>

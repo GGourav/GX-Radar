@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E0000000"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radar Size"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"/>
+
+    <SeekBar
+        android:id="@+id/seekRadarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="300"
+        android:progress="200"
+        android:progressTint="@color/entity_resource"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiers"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbT1" android:text="T1" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbT2" android:text="T2" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbT3" android:text="T3" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbT4" android:text="T4" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbT5" android:text="T5" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbT6" android:text="T6" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbT7" android:text="T7" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbT8" android:text="T8" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resources"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbWood" android:text="Wood" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbRock" android:text="Rock" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbFiber" android:text="Fiber" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbHide" android:text="Hide" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbOre" android:text="Ore" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enchants"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbE0" android:text=".0" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbE1" android:text=".1" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbE2" android:text=".2" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbE3" android:text=".3" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbE4" android:text=".4" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobs"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbMobNormal" android:text="Normal" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbMobEnch" android:text="Ench" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbMobBoss" android:text="Boss" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Players"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/cbPlayerPassive" android:text="Passive" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+        <CheckBox android:id="@+id/cbPlayerHostile" android:text="Hostile" android:textSize="10sp" android:layout_weight="1" android:checked="true"/>
+    </LinearLayout>
+
+</LinearLayout>
